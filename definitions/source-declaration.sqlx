@@ -1,0 +1,6 @@
+    config {
+      type: "declaration",
+      database: "prj-s-telus-tpm-data-fcfc",
+      schema: "app",
+      name: "Measures",
+    }

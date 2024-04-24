@@ -1,5 +1,5 @@
 defaultProject: prj-s-telus-tpm-data-fcfc
-defaultLocation: US
+defaultLocation: us-east1
 defaultDataset: dataform
 defaultAssertionDataset: dataform_assertions
 dataformCoreVersion: 3.0.0-beta.4
