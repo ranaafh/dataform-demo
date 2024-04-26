@@ -1,0 +1,11 @@
+config {
+    type: "table",
+    tags: ["advanced", "hourly"],
+}
+
+  ${
+      functions.renderScript(ref("Measures"),
+          ["object", "read_method"],
+          ["read_timestamp", "source_timestamp"]
+      )
+  }
